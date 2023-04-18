@@ -1,0 +1,44 @@
+.intro {
+  max-width: 984px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-top: 64px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: calc(1080px)) {
+  .intro {
+    margin: 0 48px 0;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .intro {
+    margin: 0 auto 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    margin-top: 92px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro {
+    margin-top: 88px;
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-top: 64px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,34 @@
+.cover {
+  max-width: 1184px;
+  position: relative;
+}
+
+@media screen and (min-width: 1185px) {
+  .cover {
+    margin: 0 auto 92px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1184px) {
+  .cover {
+    margin: 0 0 92px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin: 0 0 64px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .cover {
+    margin: 0 0 88px;
+  }
+}
