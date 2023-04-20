@@ -4,29 +4,28 @@
   font-style: normal;
   font-weight: 400;
   position: relative;
+  line-height: 163%;
+  margin: 0 0 25px;
 }
 
-.place__paragraph:first-of-type {
-  margin: 0 0 25px;
+.place__paragraph:last-of-type {
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 163%;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
-    line-height: 163%;
   }
 }
 
-@media creen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 163%;
   }
 }

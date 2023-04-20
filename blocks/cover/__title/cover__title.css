@@ -14,13 +14,13 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) {
   .cover__title {
     margin: 195px auto 32px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .cover__title {
     margin: 115px auto 32px;
   }
