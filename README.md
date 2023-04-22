@@ -8,6 +8,7 @@
 
 * flex
 * grid
+* Github Pages
 
 ## Примущества
 
