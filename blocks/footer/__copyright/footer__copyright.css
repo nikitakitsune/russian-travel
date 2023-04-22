@@ -3,20 +3,19 @@
   padding: 0;
   font-style: normal;
   font-weight: 400;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 768px) {
   .footer__copyright {
-    font-size: 14px;
     line-height: 16px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer__copyright {
-    margin-top: 16px;
+    margin-top: 48px;
     min-width: 186px;
-    font-size: 14px;
     line-height: 14px;
   }
 }

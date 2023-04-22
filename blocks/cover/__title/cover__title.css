@@ -3,26 +3,14 @@
   font-style: normal;
   font-weight: 900;
   text-align: center;
-  font-size: 72px;
-  line-height: 76px;
   max-width: 560px;
-}
-
-@media screen and (min-width: 1280px) {
-  .cover__title {
-    margin: 245px auto 32px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cover__title {
-    margin: 195px auto 32px;
-  }
 }
 
 @media screen and (min-width: 768px) {
   .cover__title {
-    margin: 115px auto 32px;
+    margin: 0 0 32px;
+    font-size: 72px;
+    line-height: 76px;
   }
 }
 
@@ -31,6 +19,6 @@
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;
-    margin: 33px auto 16px;
+    margin: 0 0 16px;
   }
 }

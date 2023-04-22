@@ -2,6 +2,7 @@
   margin-left: 18px;
   color: white;
   text-decoration: none;
+  font-weight: 400;
 }
 
 .header__lang-link:first-of-type {
@@ -10,5 +11,22 @@
 
 .header__lang-link:hover {
   opacity: .8;
+}
+
+.header__lang-link:active {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
