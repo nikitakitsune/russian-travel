@@ -13,10 +13,6 @@
   opacity: .8;
 }
 
-.header__lang-link:active {
-  text-decoration: underline;
-}
-
 @media screen and (min-width: 768px) {
   .header__lang-link {
     font-size: 24px;

@@ -10,7 +10,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: calc(100vw / 1.7);
 }
 
 .cover__self-link::before {
@@ -26,4 +25,16 @@
 
 .cover__self-link:hover::before {
   opacity: .8;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__self-link {
+    min-height: calc(100vw / 1.6);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__self-link {
+    height: 740px;
+  }
 }
