@@ -5,19 +5,16 @@
   grid-row: 1;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .place__title {
-    max-width: 340px;
-  }
-}
-
 @media screen and (min-width: 1280px) {
   .place__title {
+    font-size: 72px;
+    line-height: 76px;
     margin: 0;
+    max-width: 460px;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .place__title {
     font-size: 72px;
     line-height: 76px;
@@ -26,11 +23,12 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
     margin: 0;
+    max-width: 340px;
   }
 }
 
@@ -38,8 +36,8 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    max-width: 340px;
     margin: 50px 16px 32px;
+    max-width: 340px;
   }
 
   .place__title:first-of-type {
