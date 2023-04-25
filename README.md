@@ -18,3 +18,7 @@
 
 * форму для обратной связи
 * другую галерею
+
+## Страница
+
+[Путешествия по России (nikitakitsune.github.io)](https://nikitakitsune.github.io/russian-travel/)
